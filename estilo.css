@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/06/2015, 10:27:52
+    Author     : IVAN
+*/
+
+body{
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    color: #222;
+    background-color: #FFF;
+}
+
+#geral{
+    width:966px;
+    margin: 0 auto;
+    border:1px solid #777;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+#topo{
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+#logo{
+    width: 112px;
+    height: 73px;
+    background-image: url(img/logo.png);
+    float: left;
+    margin: 10px;
+}
+
+#tituloTopo{
+    width: 600px;
+    height: 5px;
+    float: left;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#conteudo{
+    width: 966px;
+    margin: 0 auto;
+}
+
+#formularios{
+    width: 966px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#formulario1{
+    width: 483px;
+    float: left;
+}
+
+#formulario2{
+    width:483px;
+    float: left;
+}
+
+#nomeCampo{
+    width: 300px;
+    height: 73px;
+    
+}
+
+#campo{
+     width: 300px;
+    height: 5px;
+}
+
+#campoPai{
+}
+
+#itens{
+    border-color: #EFEFEF;
+}
+
+#rodape{
+    border-top: 2px solid #009933;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Ítens da tabela */
+
+#tab1{
+    float:left;
+    width: 466px;
+    background-color: #009933;
+}
+
+#tab2{
+    float:left;
+    width: 140px;
+    background-color: red;
+}
+
+#tab3{
+    float:left;
+    width: 140px;
+    background-color: blue;
+}
+
+#tab4{
+    float:left;
+    width: 140px;
+    background-color: #009933;
+}
+
+#tab5{
+    float:left;
+    width: 70px;
+    background-color: #009933;
+}
+
+#tituloCampo{
+    text-align: center;
+}
+
+#addCampos{
+    text-align: right;
+    padding: 10px;
+}
+
+erro{
+    border:1px solid red;
+}
+/********************* TAGS **************************/
+
+hr{
+    color: #009933;
+    background: #009933;
+    height: 4px;
+    width: 960px;
+    /*border-radius: 5px;*/
+}
+
+input[type=text]{
+    border: 1px solid #777;
+    color: #222;
+    width: 300px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 0px 3px 0px rgba(0, 0, 0, 0.35);
+    
+}
+
+input[type=text]:focus{
+    border: 1px solid #3399ff;
+    color: #000;
+}
+
+#gerar{
+    background-color: #009933;
+    width: 80px;
+    height: 40px;
+    color: #FFF;
+    border: 1px solid #009933;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+#imprimir:hover{
+    text-shadow: 1px 1px #000;
+}
+
+#botao{
+    text-align: center;
+    padding-top: 20px;
+}
+
+textarea{
+    width:700px;
+    height: 60px;
+}
+
+#addBtn{
+    background-color: #009933;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    border: 1px solid #009933;
+    border-radius: 3px;
+    
+}
+
+#removerBtn{
+    background-color: #eb3844;
+    border: 0px;
+    border-radius: 3px;
+    color: #FFF;
+    
+}
+
+input[type=button],[type=submit]{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:         0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+input[type=button]:hover,[type=submit]:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+    
+}
+
+#obs{
+    width: 710px;
+}
+
+#centraliza{
+    width: 700px;
+    margin: 0 auto;
+}
+
+textarea{
+    font-family: Arial,sans-serif;
+    resize: none;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    box-shadow:         0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    border: 1px solid #777;
+}
+
+textarea:focus{
+    border: 1px solid #3399ff;
+}
+
+table{
+    
+}
+
+#data{
+    width: 960px;
+    text-align: right;
+    font-weight: bold;
+    margin: 0 auto;
+}
